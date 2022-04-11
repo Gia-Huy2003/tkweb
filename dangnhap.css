@@ -1,0 +1,32 @@
+.cot2 input[type=password],
+.cot2 input[type=text]{
+    border-radius: 5px;
+    width: 10%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.cot2 input[type=submit]{
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.cot2{
+    padding-top: 30px;
+    text-align: center;
+}
+.cot1{
+    padding-left: 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.cot1 h1{
+    font-size: 30px;
+}
+.cot1 > p{
+    font-size: 25px;
+}

@@ -1,0 +1,195 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header > ul > h4 > a{
+    margin-left: 310px;
+    text-decoration: none;
+
+}
+header > ul {
+    background-color: orange;
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+header > ul > li >a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+header > ul > li > a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 40px;
+
+    font-weight: bold;
+}
+header > ul > li{
+border-right: 5px solid blue;
+}
+header > div{
+ display: flex;
+ width: 0x;
+ height: 450px;
+}
+header >div> h1 {
+    float: right;
+    color: blue;
+    text-shadow: 2px 3px 3px gold;
+    margin-top: 50px;
+    text-transform: uppercase;
+    padding: 150px;
+
+    margin-right: 10px;
+    font-size: 3vw;
+}
+.cacsanpham{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+
+    flex-wrap: wrap;
+    
+}
+
+.cacsanpham > .sangtrong > a > img{
+    height: 280px;
+    margin-left: 60px;
+}
+.cacsanpham > .sangtrong > a > h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: red;
+    width: 100px;
+
+    text-align: center;
+    margin-left: 200px;
+}
+.cacsanpham > .sangtrong > a{
+    text-decoration: none;
+}
+    
+
+h2{
+    margin-top: 25px;
+    background-color: aqua;
+    border: none;
+    border-radius: 0 20px 0 0;
+    width: 120px;
+    padding: 15px;
+}
+hr{
+    height: 4px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+
+.cacsanpham > .trungbinh > a > img{
+    margin-left: 50px;
+    height: 285px;
+}
+.cacsanpham > .trungbinh > a > h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: red;
+    width: 100px;
+
+    text-align: center;
+    margin-left: 200px;
+}
+.cacsanpham > .trungbinh > a{
+    text-decoration: none;
+}
+
+
+.cacsanpham > .binhdan > a > img{
+    height: 280px;
+    margin-left: 120px;
+}
+.cacsanpham > .binhdan > a > h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: red;
+    width: 100px;
+
+    text-align: center;
+    margin-left: 250px;
+}
+.cacsanpham > .binhdan > a{
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color:dimgray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}   
+
+.cot1{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.cot1 h1{
+    font-size: 20px;
+}
+.cot2{
+    padding-top: 30px;
+}
+.cot2 h1{
+    font-size: 20px;
+}
+.cot2 input[type=tell],
+.cot2 input[type=text],
+.cot2 input[type=email]{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.cot2 input[type=submit]{
+    margin-left: 80px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cot3{
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.cot3 h1{
+    font-size: 20px;
+}
+.cot4{
+    background-color: darkgrey;
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+}
+.cot4 p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+
